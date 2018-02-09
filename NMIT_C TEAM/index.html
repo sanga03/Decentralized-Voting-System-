@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VOTING SYSTEM</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="./index.js"></script>
+
+
+</head>
+
+<body style="background-color: white;">
+<h1 style="
+text-align: center;
+color: #5487d8;
+font-family: 'Boogaloo', cursive;
+font-size: 60px;">
+
+DECENTRALIZED VOTING SYSTEM
+
+</h1>
+<h2 style="
+color:#8e2a34;
+text-align: 
+center;font-family: 'Neuton', serif;">
+SELECT YOUR CANDIDATE
+</h2>
+<form>
+<div class="container">
+	<div class="row" style="
+	background:linear-gradient(to bottom right,#4e84db,white);
+	border-radius: 10px;
+	border: 2px solid #5487d8;
+	padding-top: 10px;
+	padding-bottom: 10px;">
+<div class="row" style="margin-left: 100px;">
+	<div class="col-sm-4">
+		<img src="images\123.png" style="width: 180px;height: 120px;">
+		<p style="color:black;"><b>Rama</b></p>
+
+		<img src="images\p1.png" style="height: 50px;width: 80px;margin-right: 20px;">
+	          <input type="radio" name="c1" value="Rama" style="height:25px;width:40px;">
+  	
+	</div>
+	<div class="col-sm-4">
+		<img src="images\234.png" style="width: 180px;height: 120px;">
+		<p style="color: black;"><b>Nick</b></p>	
+		<img src="images\p2.png" style="height: 50px;width: 80px;margin-right: 20px;">
+		<input  type="radio" name="c1" value="Nick" style="height:25px;width:40px;" >
+			
+
+	</div>
+	<div class="col-sm-4">
+		<img src="images\456.png" style="width: 180px;height: 120px;">
+		<p style="color:black;"><b>Jose</b></p>	
+		<img src="images\p3.jpg" style="height: 50px;width: 80px;margin-right: 20px;">
+		<input  type="radio" name="c1" value="Jose" style="height:25px;width:40px; checkmark" >
+			
+
+	</div>
+</div>
+<br>
+<br>
+<br>
+ <!<input align="center" type="text" id="candidate" />
+</div>
+</div>
+<br>
+
+<a href="dashboard.html" class="btn btn-primary" id="candidate" onclick="voteForCandidate()" style="margin-left: 600px;margin-right: 600px;
+text-align: center;
+box-shadow: 3px 5px 4px;
+border-radius: 8px; 
+font-size: 30px;background:lightblue;">SUBMIT</a>
+
+<br>
+<br>
+</form>
+
+</body>
+</html>
